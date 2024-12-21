@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyVerse - Music Player</title>
+    <link rel="stylesheet" href="/public/styles/musicinterface.css">
+    <link rel="stylesheet" href="/css/music-interface.css">
+</head>
+<body>
+    <div class="music-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>My Playlists</h2>
+            <div class="playlist">
+                <div class="playlist-item">
+                    <img src="/api/placeholder/50/50" alt="Playlist">
+                    <div class="song-info">
+                        <strong>Favorites</strong>
+                        <p>25 songs</p>
+                    </div>
+                </div>
+                <div class="playlist-item">
+                    <img src="/api/placeholder/50/50" alt="Playlist">
+                    <div class="song-info">
+                        <strong>Rock Hits</strong>
+                        <p>18 songs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="content-area">
+                <h1>Discover</h1>
+                <div class="playlist">
+                    <h2>Recommended</h2>
+                    <div class="playlist-item">
+                        <img src="/api/placeholder/50/50" alt="Song">
+                        <div class="song-info">
+                            <strong>Song Title</strong>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Controls -->
+            <div class="player-controls">
+                <div class="song-info">
+                    <strong>Current Song</strong>
+                    <p>Artist Name</p>
+                </div>
+                <div class="player-buttons">
+                    <button id="prev-btn">⏮️</button>
+                    <button id="play-pause-btn">▶️</button>
+                    <button id="next-btn">⏭️</button>
+                </div>
+                <div>
+                    <button>🔊</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/js/musicplayer.js"></script>
+    <script src="/public/js/musicinterface.js"></script>
+</body>
+</html>

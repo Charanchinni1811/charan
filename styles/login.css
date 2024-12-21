@@ -1,0 +1,33 @@
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    background-color: #282828;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #1ED760;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #1DB954;
+    text-decoration: none;
+}

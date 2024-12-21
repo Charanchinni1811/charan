@@ -1,0 +1,56 @@
+* Global styles */
+:root {
+    --bg-dark: #121212;
+    --text-light: #FFFFFF;
+    --accent-green: #1DB954;
+    --accent-hover-green: #1ED760;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.landing-container {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 600px;
+    width: 90%;
+}
+
+.landing-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--accent-green);
+}
+
+.landing-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.login-btn {
+    background-color: var(--accent-green);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: var(--accent-hover-green);
+}
